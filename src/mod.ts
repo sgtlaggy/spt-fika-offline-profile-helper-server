@@ -41,7 +41,7 @@ class Mod implements IPreSptLoadMod {
 
                         // "authentication"
                         if (iinfo.id === pinfo.id && (iinfo.username !== pinfo.username || iinfo.password !== pinfo.password)) {
-                            log(`Profile ${iinfo.id} attempt failed: authentication.`);
+                            log(`Profile ${iinfo.id} attempt failed: authentication`);
                             return httpResponseUtil.noBody({
                                 message: "Authentication failed."
                             });
