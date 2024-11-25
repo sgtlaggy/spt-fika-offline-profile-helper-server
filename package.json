@@ -1,7 +1,7 @@
 {
     "name": "OfflineProfileHelper",
-    "version": "1.0.0",
-    "sptVersion": "~3.9",
+    "version": "1.0.1",
+    "sptVersion": "^3.9",
     "author": "sgtlaggy",
     "contributors": [],
     "license": "MIT",
